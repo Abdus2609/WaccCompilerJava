@@ -1,0 +1,15 @@
+package generators;
+
+public enum ExpressionType {
+  INT_LITERAL,
+  SIGNED_INT_LITERAL,
+  BOOL_LITERAL,
+  CHAR_LITERAL,
+  STRING_LITERAL,
+  PAIR_LITERAL,
+  IDENTIFIER,
+  ARRAY_ELEMENT,
+  UNOP_EXPR,
+  BINOP_EXPR,
+  BRACKETED_EXPR
+}
